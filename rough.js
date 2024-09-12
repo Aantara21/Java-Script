@@ -76,3 +76,4 @@ const myTime = newPeople * roundNumber;
 return myTime;
 
 }
+console.log(waitingTime([12,4,12,16,8]  , 7))
