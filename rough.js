@@ -33,7 +33,26 @@ function checkDigitsInName(text) {
     }
     return false;
 }
-
+function calculateFinalScore(obj) {
+  if (typeof obj !== 'object'){
+   return 'Invalid Input';
+  }
+ 
+  let testScore = obj.testScore;
+  let grade = obj.schoolGrade;
+  let quota = 0;
+  if(obj.isFFamily===true){
+   quota=20;
+  }
+ 
+ let total = testScore+grade + quota ; 
+ if (total>=80){
+   return true;
+   }
+ else{
+   return false;
+ }
+ }
 
 
 function  waitingTime(waitingTimes  , serialNumber) {
