@@ -18,4 +18,7 @@ function money(dollar) {
     return bdTk;
 }
 
-console.log(money(200));
+// console.log(money(200));
+
+var name1 = 'fngnfjgnf';
+console.log(name1[2]);
