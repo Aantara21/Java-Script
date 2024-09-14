@@ -16,8 +16,27 @@ const reminder = 119 % 5;
 // console.log('the remainder', reminder);
 let brgr = 450;
 if (brgr > 500) {
-    console.log ('free Coke');
+//     console.log ('free Coke');
+// }
+// else{
+//     console.log (' Else Coke: 30tk');
 }
-else{
-    console.log (' Else Coke: 30tk');
+
+
+let weight  = 70;
+let height = 1.70;
+
+let BMI = weight  / (height)^2;
+if (BMI < 18.5) {
+    console.log('you are underweight.');
+}
+else if (BMI >= 18.5 && BMI <=24.9) {
+    console.log('you are normal.');
+} 
+else if (BMI >=25 && BMI <= 29.9) {
+    console.log('you are overweight.');
+} 
+
+else {
+    console.log ('Otherwise, you are obese.');
 }
